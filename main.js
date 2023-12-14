@@ -156,7 +156,7 @@ function changeContent(page) {
                     <p>React</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/mysql-logo.png" alt="MySQL Logo">
+                    <img src="mysql-logo.png" alt="MySQL Logo">
                     <p>MySQL</p>
                 </div>
                 <div class="skill-box">
