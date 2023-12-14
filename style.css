@@ -542,11 +542,14 @@ textarea:invalid {
         color: black;
     }
 }
+
 /* Responsive Style Navbar */
 @media screen and (max-width: 450px) {
     .close-icon {
        display: none;
+    }
 }
+
 /* Responsive Stle of Connect */
 @media screen and (max-width: 1400px) { 
     .connect {
