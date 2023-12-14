@@ -136,23 +136,23 @@ function changeContent(page) {
             <div id="content" class="skills-content-image" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
                 <!-- Default content -->
                 <div class="skill-box">
-                    <img src="image/html-logo.png" alt="HTML Logo">
+                    <img src="html-logo.png" alt="HTML Logo">
                     <p>HTML</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/css-logo.png" alt="CSS Logo">
+                    <img src="css-logo.png" alt="CSS Logo">
                     <p>CSS</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/js-logo.png" alt="JavaScript Logo">
+                    <img src="js-logo.png" alt="JavaScript Logo">
                     <p>JavaScript</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/php-logo.png" alt="PHP Logo">
+                    <img src="php-logo.png" alt="PHP Logo">
                     <p>PHP</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/react-logo.png" alt="React Logo">
+                    <img src="react-logo.png" alt="React Logo">
                     <p>React</p>
                 </div>
                 <div class="skill-box">
@@ -160,27 +160,27 @@ function changeContent(page) {
                     <p>MySQL</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/github-logo.png" alt="GitHub Logo">
+                    <img src="github-logo.png" alt="GitHub Logo">
                     <p>GitHub</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/xml-logo.png" alt="XML Logo">
+                    <img src="xml-logo.png" alt="XML Logo">
                     <p>XML</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/java-logo.png" alt="Java Logo">
+                    <img src="java-logo.png" alt="Java Logo">
                     <p>Java</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/figma-logo.png" alt="Figma Logo">
+                    <img src="figma-logo.png" alt="Figma Logo">
                     <p>Figma</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/bootstrap.png" alt="Bootstrap Logo">
+                    <img src="bootstrap.png" alt="Bootstrap Logo">
                     <p>Bootstrap</p>
                 </div>
                 <div class="skill-box">
-                    <img src="image/adobe.png" alt="Photoshop Logo">
+                    <img src="adobe.png" alt="Photoshop Logo">
                     <p>Photoshop</p>
                 </div>
             </div>
