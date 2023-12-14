@@ -1,0 +1,216 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katelene Grace Paloma</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet"/>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="/image/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header/Navigation Bar -->
+    <header class="header">
+        <img src="\image\logo.png" alt="">
+        <a href="#" class="logoname">Katelene Grace Paloma</a>
+        <nav class="navbar">
+            <div class="menu">
+            <span class="close-icon" onclick="toggleMenu()">&#10006;</span>
+                <a href="#about" onclick="scrollToSection('about')">About</a>
+                <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+                <a href="#projects" onclick="scrollToSection('projects')">Projects</a>
+                <a href="#connect" onclick="scrollToSection('connect')">Connect</a>
+        </div>
+            <div class="menu-icon" onclick="toggleMenu()" >&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content" id="home" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+            <h4>Hello, I am</h4>
+            <h1>Katelene Paloma</h1>
+            <h3><span class="text"></span></h3>
+            <div class="home-button">
+                <a class="home-button-resume" href="kgspaloma.pdf" target="_blank">Download resume</a>
+            </div>
+            <div class="home-button">
+                <a class="home-button-email" href="mailto:palomakatelene@gmail.com" target="_blank">Email</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img src="\image\kate.png" alt="Connect Image" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h3 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">ABOUT ME</h3>
+            <p data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">I am <b> Katelene Grace S. Paloma</b>, a recent <b> Computer Engineering </b> graduate at Polytechnic University of the Philippines Sta. Mesa. 
+            <p id="paragraph2" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">I am eager to apply my academic knowledge to hands-on projects and learn from experienced professionals. I am open to entry-level opportunities in <b>Web development</b>, <b>UI/UX Designing</b>, <b>Frontend Development</b>, and <b>Associate Software Engineering</b> roles that offer a platform for growth and innovation.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="skills-content">
+            <h3 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">SKILLS AND KNOWLEDGE</h3>
+            <div class="skills-classification" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+                    <ul>
+                        <li href="#" class="menu" onclick="changeContent('all')">All</li>
+                        <li href="#" class="menu" onclick="changeContent('design')">UI/UX</li>
+                        <li href="#" class="menu" onclick="changeContent('frontend')">Frontend</li>
+                        <li href="#" class="menu" onclick="changeContent('others')">Others</li>
+                    </ul>
+            </div>
+            <div id="content" class="skills-content-image" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                <!-- Default content -->
+                <div class="skill-box">
+                    <img src="image/html-logo.png" alt="HTML Logo">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/css-logo.png" alt="CSS Logo">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/js-logo.png" alt="JavaScript Logo">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/php-logo.png" alt="PHP Logo">
+                    <p>PHP</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/react-logo.png" alt="React Logo">
+                    <p>React</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/mysql-logo.png" alt="MySQL Logo">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/github-logo.png" alt="GitHub Logo">
+                    <p>GitHub</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/xml-logo.png" alt="XML Logo">
+                    <p>XML</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/java-logo.png" alt="Java Logo">
+                    <p>Java</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/figma-logo.png" alt="Figma Logo">
+                    <p>Figma</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/bootstrap.png" alt="Bootstrap Logo">
+                    <p>Bootstrap</p>
+                </div>
+                <div class="skill-box">
+                    <img src="image/adobe.png" alt="Photoshop Logo">
+                    <p>Photoshop</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="projects-content">
+            <h3 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">PROJECTS</h3>
+            <div class="project-content-image">
+                <div class="project-box" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                    <img src="image/cwfc.png" alt="CWFC website">
+                    <p class="title">City Word Family Church website</p>
+                    <div class="language">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>Bootstrap</p>
+                        <p>My SQL</p>
+                        <p>PHP</p>
+                    </div>
+                    <div class="project-button">
+                            <a href="http://cwfc.rf.gd/" target="_blank" class="view">Live View</a>
+                    </div>
+                </div>
+                <div class="project-box" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                    <img src="image/todo.png" alt="CWFC website">
+                    <p class="title">Simple To Do List</p>
+                    <div class="language2">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="project-button">
+                            <a href="https://codepen.io/katechup_0/pen/dywZLwO" target="_blank" class="view">Live View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section class="connect" id="connect">
+        <div class="connect-image">
+            <img src="\image\Connect.png" alt="Connect Image" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+        </div>
+        <div class="connect-content">
+            <h3 data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">LET'S CONNECT</h3>
+            <div class="connect-form" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Name">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <input type="text" id="subject" name="subject" placeholder="Subject (Optional)">
+                    <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div class="contact-section-header">
+                    <div class="line"></div>  
+                    <p data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">or visit my following accounts</p>
+                </div>
+                <div class="contact-links" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                    <a href="https://www.facebook.com/ktln.grace/" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+                    <a id="profile-link" href="https://github.com/ktln-grace" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="mailto:palomakatelene@gmail.com" class="btn contact-details" target="_blank"><i class="fas fa-at"></i>Gmail</a>
+                    <a href="https://www.linkedin.com/in/katelenegracepaloma/" class="btn contact-details" target="_blank"><i class="fas fa-mobile-alt"></i> Linkedin</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="foot">
+        <div class="foot-content">
+            <h4>ktln.grace</h4>
+            <div class="socials">
+                <a target="_blank" href="mailto:palomakatelene@gmail.com"><i class='bx bxs-envelope'></i></a>
+                <a target="_blank" href="https://www.facebook.com/ktln.grace/"><i class='bx bxl-facebook-square'></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/katelenegracepaloma/"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+            <p class="credit">&copy; 2023 Katelene Grace Paloma.</p>
+            <p>Designed by <a href="#" target="_blank">Katelene Grace Paloma</a></p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    
+    <!-- Smooth Animation-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
