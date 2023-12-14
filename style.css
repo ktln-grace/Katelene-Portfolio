@@ -671,6 +671,9 @@ textarea:invalid {
         color: #fff;
         font-weight: 400;
     }
+    .nav a {
+        font-size: 10px;
+        font-weight: 200;
 }
 
 /* Responsive style of About */
